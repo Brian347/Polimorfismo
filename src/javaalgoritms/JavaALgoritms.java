@@ -1,18 +1,29 @@
 
 package javaalgoritms;
 
-import java.util.Scanner;
-
-public class JavaALgoritms{ 
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+/**
+ *
+ * @author BRIAN
+ */
+public class JavaALgoritms {
+    
     public static void main(String[] args) {
-        Scanner entrada=new Scanner(System.in);
-       
-        char letra;
-        System.out.println("Digite una caracter: ");
-        letra=entrada.next().charAt(0);
-               
-        //System.out.println("La cadena es: "+entrada);
+        JFrame frame = new JFrame();
+        frame.setSize(500, 600);
+        frame.setTitle("Un primer frame");
+        JLabel label = new JLabel("Hello, World");
+        //label.setSize(30);
+        label.setSize(10, 20);
+        label.setOpaque(true);
+        label.setBackground(Color.PINK);
+        frame.add(label);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        frame.setVisible(true);
     }
+    
 }
 
