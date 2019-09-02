@@ -12,7 +12,7 @@ public class JavaALgoritms{
         letra=entrada.next().charAt(0);
                
         System.out.println("La cadena es: "+entrada);
-        
+        //Iama :'v 
     }
 }
 
