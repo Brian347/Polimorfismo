@@ -11,5 +11,6 @@ public class MainPolimorfismo {
         System.out.println("Suma de Doubles: "+aux.sumar(33.4, 3.7));
         System.out.println("Suma de Cadenas: "+aux.sumar("Concatena", " Palabras"));
         System.out.println("Concatenación: "+aux.sumar("Cambio desde", "repositorio polimorfismo")); 
+        System.out.println("Suma de enteros: "+aux.sumar(17, 15);
     }
 }
